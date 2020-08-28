@@ -1,0 +1,9 @@
+-- select db
+
+use user_db
+
+-- Insert data in currency(collection)
+
+db.currency.insert({"date":"2020-08-28 00:00:00+00","base":"USD","rates":{"INR":"73.904"}})
+db.currency.insert({"date":"2020-08-28 00:00:00+00","base":"USD","rates":{"SGD":"1.36585"}})
+db.currency.insert({"date":"2020-08-28 00:00:00+00","base":"USD","rates":{"MYR":"4.1725"}})
